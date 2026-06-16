@@ -1,19 +1,13 @@
-# Read the Docs resmi yapılandırma dosyası
 version: 2
 
-# Sunucunun çalışacağı işletim sistemi ayarları
 build:
   os: ubuntu-22.04
   tools:
     python: "3.10"
 
-# Bulut sunucusuna bizim kurumsal temayı kurmasını söylüyoruz
 python:
   install:
-    - method: pip
-      path: .
-      requirements: requirements.txt
+    - requirements: requirements.txt
 
-# Sphinx'in ayar dosyasının nerede olduğunu gösteriyoruz
 sphinx:
   configuration: conf.py
