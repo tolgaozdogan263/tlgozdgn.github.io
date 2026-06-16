@@ -1,0 +1,12 @@
+/* Sol menüyü kurumsal lacivert yap */
+.wy-nav-side {
+    background: #1a252f !important;
+}
+/* Üst arama panelini kurumsal mavi yap */
+.wy-side-nav-search {
+    background: #2c3e50 !important;
+}
+/* Linklerin kurumsal rengi */
+a {
+    color: #2980b9;
+}
