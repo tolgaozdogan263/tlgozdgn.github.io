@@ -14,3 +14,6 @@ html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
 }
+```python
+   def setup(app):
+       app.add_css_file('custom.css')
